@@ -1,0 +1,26 @@
+{
+  "name": "Multivision",
+  "version": "0.0.0",
+  "description": "Extreme Tech Training",
+  "authors": [
+    "Kamlesh Meghwal"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "toastr": "~2.0.3",
+    "angular": "~1.2.23",
+    "angular-resource": "~1.2.23",
+    "angular-route": "~1.2.23",
+    "bootstrap": "~3.2.0"
+  }
+}

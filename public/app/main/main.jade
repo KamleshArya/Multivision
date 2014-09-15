@@ -1,0 +1,14 @@
+//h1 This is a Partial
+//h2 {{ myVar }}
+
+.container
+    .jumbotron
+        h1 MultiVison
+        p Welcome to MultiVison !
+
+    .row
+        .col-md-6
+           div(ng-include="'/partials/main/featured-courses'")
+        .col-md-6
+           div(ng-include="'/partials/main/new-courses'")
+
